@@ -10,16 +10,14 @@
   },
   "dependencies": {
     "concurrently": "^3.5.0",
-    "express": "^4.16.2",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-redux": "^5.0.6",
-    "redux": "^3.7.2"
+    "express": "^4.16.2"
   },
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
     "dev": "concurrently \"yarn server\" \"yarn client\"",
-    "client": "cd client && yarn start"
+    "client": "cd client && yarn start",
+    "heroku-postbuild":
+      "NPM_CONFIG_PRODUCTION=false npm install --prefix client"
   }
 }
