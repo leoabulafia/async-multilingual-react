@@ -17,6 +17,6 @@
     "server": "nodemon index.js",
     "dev": "concurrently \"yarn server\" \"yarn client\"",
     "client": "cd client && yarn start",
-    "heroku-postbuild": "yarn --production=false && cd client && yarn run build"
+    "heroku-postbuild": "cd client && yarn run build"
   }
 }
