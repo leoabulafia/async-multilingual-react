@@ -25,3 +25,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 registerServiceWorker();
+console.log('env is: ', process.env.NODE_ENV);
