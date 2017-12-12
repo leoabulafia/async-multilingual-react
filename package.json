@@ -6,7 +6,7 @@
   "license": "MIT",
   "engines": {
     "node": "7.10.1",
-    "yarn": "0.21.3"
+    "npm": "5.4.2"
   },
   "dependencies": {
     "concurrently": "^3.5.0",
@@ -15,8 +15,9 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "dev": "concurrently \"yarn server\" \"yarn client\"",
-    "client": "cd client && yarn start",
-    "heroku-postbuild": "cd client && yarn run build"
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild":
+      "NPM_CONFIG_PRODUCTION=false npm install --prefix client"
   }
 }
