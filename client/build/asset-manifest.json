@@ -1,8 +1,9 @@
 {
-  "main.css": "static/css/main.383c675b.css",
-  "main.css.map": "static/css/main.383c675b.css.map",
-  "main.js": "static/js/main.29cd7640.js",
-  "main.js.map": "static/js/main.29cd7640.js.map",
+  "main.css": "static/css/main.29eeddbd.css",
+  "main.css.map": "static/css/main.29eeddbd.css.map",
+  "main.js": "static/js/main.7e7e9756.js",
+  "main.js.map": "static/js/main.7e7e9756.js.map",
+  "static/media/redux.png": "static/media/redux.fbcc9dd1.png",
   "static/media/roboto-latin-100.woff": "static/media/roboto-latin-100.e9dbbe8a.woff",
   "static/media/roboto-latin-100.woff2": "static/media/roboto-latin-100.987b8457.woff2",
   "static/media/roboto-latin-100italic.woff": "static/media/roboto-latin-100italic.d704bb3d.woff",
@@ -26,5 +27,6 @@
   "static/media/roboto-latin-900.woff": "static/media/roboto-latin-900.8c2ade50.woff",
   "static/media/roboto-latin-900.woff2": "static/media/roboto-latin-900.19b7a0ad.woff2",
   "static/media/roboto-latin-900italic.woff": "static/media/roboto-latin-900italic.bc833e72.woff",
-  "static/media/roboto-latin-900italic.woff2": "static/media/roboto-latin-900italic.7b770d6c.woff2"
+  "static/media/roboto-latin-900italic.woff2": "static/media/roboto-latin-900italic.7b770d6c.woff2",
+  "static/media/translate.png": "static/media/translate.ec55ad86.png"
 }
