@@ -5,6 +5,8 @@ import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Button from 'material-ui/Button';
+import IconButton from 'material-ui/IconButton';
+import MenuIcon from 'material-ui-icons/Menu';
 
 class Navbar extends Component {
   render() {
@@ -14,7 +16,7 @@ class Navbar extends Component {
         <AppBar position="static">
           <Toolbar>
             <Typography type="title" color="inherit">
-              Async multilingual-react
+              Async Multilingual React
             </Typography>
             <div style={{ flex: '1 1 auto' }} />
             <Link to="/">
@@ -27,6 +29,9 @@ class Navbar extends Component {
               <Button color="contrast">{data.howitworks}</Button>
             </Link>
             <SwitchLang />
+            <IconButton color="contrast" aria-label="Menu">
+              <MenuIcon />
+            </IconButton>
           </Toolbar>
         </AppBar>
       </div>
