@@ -29,9 +29,6 @@ class Navbar extends Component {
               <Button color="contrast">{data.howitworks}</Button>
             </Link>
             <SwitchLang />
-            <IconButton color="contrast" aria-label="Menu">
-              <MenuIcon />
-            </IconButton>
           </Toolbar>
         </AppBar>
       </div>

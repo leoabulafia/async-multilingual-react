@@ -7,12 +7,19 @@ export class Home extends Component {
     const data = this.props.data.page.home;
     return (
       <div className="container">
-        <h1>{data.header}</h1>
-        <h2>{data.subtitle}</h2>
-        <div className="landing">
-          <p>{data.text1}</p>
-          <img className="image" alt="Multilingual React" src={image} />
-        </div>
+        <Typography type="display2" color="inherit">
+          {data.header}
+        </Typography>
+        <Typography
+          style={{ marginBottom: '2rem' }}
+          type="headline"
+          color="inherit"
+        >
+          {data.subtitle}
+        </Typography>
+        <Typography type="title" color="inherit">
+          {data.text1}
+        </Typography>
       </div>
     );
   }

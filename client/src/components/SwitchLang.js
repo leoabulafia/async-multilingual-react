@@ -29,7 +29,12 @@ class SwitchLang extends Component {
     return (
       <div>
         <IconButton>
-          <GithubCircle color="#fff" />
+          <a
+            href="https://github.com/leoabulafia/multilingual-react"
+            target="_blank"
+          >
+            <GithubCircle color="#fff" />
+          </a>
         </IconButton>
         <IconButton
           aria-owns={this.state.open ? 'simple-menu' : null}
