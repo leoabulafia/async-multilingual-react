@@ -1,7 +1,39 @@
+a {
+  text-decoration: none;
+}
+
 body {
+  background: #136a8a;
+  background: -webkit-linear-gradient(to right, #136a8a, #267871);
+  background: linear-gradient(to right, #136a8a, #267871);
   margin: 0;
 }
 
-a {
-  text-decoration: none;
+.container {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.08em;
+  line-height: 1.7em;
+  margin: 3rem;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.landing {
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .landing {
+    flex-wrap: wrap-reverse;
+  }
+  .container {
+    margin: 1rem;
+  }
 }

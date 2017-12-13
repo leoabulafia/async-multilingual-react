@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import About from './About';
 import Home from './Home';
 import HowItWorks from './HowItWorks';
+import Logos from './Logos';
 
 class App extends Component {
   componentDidMount() {
@@ -20,12 +21,15 @@ class App extends Component {
           <BrowserRouter>
             <div>
               <Navbar data={data} />
-              <Route exact path="/" render={() => <Home data={data} />} />
-              <Route path="/about" render={() => <About data={data} />} />
-              <Route
-                path="/howitworks"
-                render={() => <HowItWorks data={data} />}
-              />
+              <div className="container">
+                <Logos />
+                <Route exact path="/" render={() => <Home data={data} />} />
+                <Route path="/about" render={() => <About data={data} />} />
+                <Route
+                  path="/howitworks"
+                  render={() => <HowItWorks data={data} />}
+                />
+              </div>
             </div>
           </BrowserRouter>
         </div>

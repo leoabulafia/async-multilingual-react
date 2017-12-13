@@ -16,6 +16,7 @@ class Navbar extends Component {
             <Typography type="title" color="inherit">
               Async multilingual-react
             </Typography>
+            <div style={{ flex: '1 1 auto' }} />
             <Link to="/">
               <Button color="contrast">{data.home}</Button>
             </Link>
