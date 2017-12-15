@@ -5,14 +5,15 @@
       "navbar": {
         "home": "Home",
         "about": "About",
-        "howitworks": "How It Works"
+        "howitworks": "How It Works",
+        "github": "See on Github"
       },
       "home": {
         "header": "Async Multilingual React",
         "subtitle":
-          "Asynchronous Multilingual single-page app with React & Redux",
+          "Asynchronous Multilingual single-page app with React, Redux & Redux Router",
         "text1":
-          "Offering content in several languages definitely add complexity to the process of development of any web site.This template intends to be a solution or at least a suggestion when working with React and Redux."
+          "Offering content in several languages definitely add complexity to the process of development of any web site.This template intends to be a solution or at least a suggestion when working with these libraries."
       },
       "about": {
         "header": "About",
@@ -40,14 +41,15 @@
       "navbar": {
         "home": "Inicio",
         "about": "Qué es",
-        "howitworks": "Cómo funciona"
+        "howitworks": "Cómo funciona",
+        "github": "Ver en Github"
       },
       "home": {
         "header": "React Multilingüe Async",
         "subtitle":
           "Aplicación de página única multilingüe asincrónica con React, Redux y React-Router",
         "text1":
-          "Ofrecer contenido en varios idiomas definitivamente añade complejidad al proceso de desarrollo de cualquier sitio o aplicación web, y ésta plantilla intenta brindar una solución utilizando React y Redux"
+          "Ofrecer contenido en varios idiomas definitivamente añade complejidad al proceso de desarrollo de cualquier sitio o aplicación web, y ésta plantilla intenta brindar una solución utilizando éstas librerías."
       },
       "about": {
         "header": "Qué es",

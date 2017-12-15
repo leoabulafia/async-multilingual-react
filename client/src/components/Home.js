@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Typography from 'material-ui/Typography';
-import image from '../logos/translate.png';
 
 export class Home extends Component {
   render() {

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { store } from '../index';
+import { push } from 'react-router-redux';
 import * as actions from '../actions';
-import Button from 'material-ui/Button';
 import Menu, { MenuItem } from 'material-ui/Menu';
 import IconButton from 'material-ui/IconButton';
-import SvgIcon from 'material-ui/SvgIcon';
 import ArrowDropDown from 'material-ui-icons/ArrowDropDown';
 import GithubCircle from 'mdi-material-ui/GithubCircle';
 
@@ -23,6 +23,7 @@ class SwitchLang extends Component {
   };
   handleLanguage(language) {
     this.props.switchLanguage(language);
+    store.dispatch(push('/' + language + window.location.pathname.slice(3)));
     this.setState({ open: false });
   }
   render() {
@@ -32,6 +33,7 @@ class SwitchLang extends Component {
           <a
             href="https://github.com/leoabulafia/multilingual-react"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <GithubCircle color="#fff" />
           </a>
